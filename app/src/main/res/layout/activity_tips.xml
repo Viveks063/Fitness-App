@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".tips">
+
+  <androidx.appcompat.widget.Toolbar
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="#393737"
+      android:textAlignment="textEnd"
+      app:title="Elevate Your Health"
+      app:titleTextColor="@color/white"
+      android:id="@+id/toolb"
+      />
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/toolb">
+
+<ScrollView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+  >
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benefits of regular Exercise"
+        android:layout_below="@id/toolb"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textColor="#0F4A11"
+        android:textSize="30dp"
+        android:id="@+id/oneq"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/oneq"
+        android:layout_marginTop="10dp"
+        android:text="Exercise is essential for maintaining overall health and well-being. It helps to strengthen muscles, bones, and the cardiovascular system, reducing the risk of chronic diseases such as heart disease, diabetes, and obesity. Regular physical activity also boosts mood and mental health by releasing endorphins and reducing stress levels. Additionally, exercise improves cognitive function and promotes better sleep patterns. Overall, incorporating exercise into one's routine is crucial for enhancing physical, mental, and emotional health, leading to a higher quality of life."
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        android:id="@+id/oneqa"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/twoq"
+        android:layout_below="@id/oneqa"
+        android:layout_marginTop="30dp"
+        android:text="Types of Exercises"
+        android:textStyle="bold"
+        android:textColor="#0F4A11"
+        android:textSize="30dp"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1.Cardiovascular/Aerobic Exercise: Boosts heart health and endurance (e.g., running, cycling).\n
+2.Strength Training: Builds muscle strength and mass (e.g., weightlifting, bodyweight exercises).\n
+3.Flexibility and Stretching: Enhances flexibility and reduces muscle tension (e.g., yoga, Pilates).\n
+4.Balance Exercises: Improves stability and coordination (e.g., Tai Chi, balance boards).\n
+5.High-Intensity Interval Training (HIIT): Burns calories effectively in short bursts (e.g., sprints, burpees).\n
+6.Functional Training: Mimics real-life movements, improving overall strength and mobility.\n
+7.Cross-Training: Incorporates a variety of exercises to prevent boredom and injury.\n
+8.Recovery and Mobility Exercises: Promotes muscle recovery and improves joint mobility (e.g., foam rolling, dynamic warm-ups)."
+        android:layout_below="@id/twoq"
+        android:id="@+id/twoqa"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:id="@+id/threeq"
+      android:layout_below="@id/twoqa"
+      android:layout_marginTop="30dp"
+      android:text="Creating an Exercise Routine"
+      android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#0F4A11"
+        android:layout_marginLeft="10dp"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:id="@+id/threeqa"
+      android:layout_below="@id/threeq"
+        android:layout_marginTop="10dp"
+      android:text="To create an exercise routine, set clear goals aligned with your fitness aspirations. Assess your current fitness level and consider any health limitations. Choose a variety of activities you enjoy, including cardio, strength training, and flexibility exercises. Schedule regular workouts, incorporating warm-ups and cool-downs to prevent injury. Progress gradually by increasing intensity and duration over time. Listen to your body, adjusting your routine as needed to avoid overexertion or injury. Stay consistent with your workouts, prioritizing them in your schedule. Allow for adequate rest and recovery between sessions to optimize muscle repair and growth. Track your progress to monitor improvements and stay motivated. Consider seeking guidance from a fitness professional to tailor your routine effectively."
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#0F4A11"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+      android:text="Importance of Nutrition in Exercise performance"
+      android:layout_below="@id/threeqa"
+        android:id="@+id/fourq"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+      android:layout_below="@id/fourq"
+      android:id="@+id/fourqa"
+        android:text="Nutrition profoundly impacts exercise performance by providing energy, promoting muscle repair, and maintaining hydration and electrolyte balance. Carbohydrates serve as the primary fuel source for energy during exercise, while protein aids in muscle repair and growth. Adequate hydration is essential for regulating body temperature and supporting cellular function. Electrolytes such as sodium and potassium help prevent dehydration and muscle cramps. Micronutrients from fruits, vegetables, and whole grains support energy metabolism and immune function. Proper nutrition also influences body composition and weight management, impacting endurance and injury risk. Timing meals and snacks around exercise optimizes energy levels and muscle recovery. A balanced diet with carbohydrates, proteins, and fats supports overall fitness and performance. Ultimately, integrating sound nutritional practices enhances exercise outcomes and contributes to long-term health and wellness."
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#0F4A11"
+        android:textSize="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+      android:layout_below="@id/fourqa"
+      android:id="@+id/fiveq"
+      android:text="Hydration"
+      />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/black"
+      android:layout_below="@id/fiveq"
+      android:id="@+id/fiveqa"
+      android:text="
+Hydration is essential for maintaining fluid balance, regulating body temperature, and supporting optimal physical and cognitive function. During exercise, adequate hydration sustains blood flow to muscles, preventing fatigue and enhancing performance. Electrolytes like sodium and potassium, lost through sweat, must be replenished to prevent dehydration and muscle cramps. Signs of dehydration include thirst, dark urine, fatigue, and dizziness, signaling the need for immediate fluid intake. Hydration strategies involve consuming fluids before, during, and after exercise, tailored to individual sweat rates and environmental conditions. Water is the primary source of hydration, though sports drinks can be beneficial for replenishing electrolytes during intense or prolonged activity. Optimal hydration varies based on factors like body size, activity level, climate, and health status, necessitating personalized hydration approaches. Maintaining proper hydration supports overall health, exercise performance, and recovery, making it a crucial aspect of fitness and well-being."
+android:layout_marginBottom="40dp"
+/>
+
+
+
+  </RelativeLayout>
+
+
+
+
+</ScrollView>
+  </RelativeLayout>
+
+  </RelativeLayout>
