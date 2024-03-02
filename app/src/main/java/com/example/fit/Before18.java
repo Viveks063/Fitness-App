@@ -21,7 +21,7 @@ public class Before18 extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
         arr=new int[]{
-                R.id.f_c, R.id.s_c, R.id.t_c, R.id.f_c, R.id.fi_c, R.id.si_c, R.id.se_c, R.id.eig_c, R.id.n_c, R.id.te_c, R.id.el_c, R.id.tw_c, R.id.thi_c, R.id.four_c,
+                R.id.f_c, R.id.s_c, R.id.t_c, R.id.fo_c, R.id.fi_c, R.id.si_c, R.id.se_c, R.id.eig_c, R.id.n_c, R.id.te_c, R.id.el_c, R.id.tw_c, R.id.thi_c, R.id.four_c,
 
         };
     }
